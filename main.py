@@ -4,8 +4,8 @@ import speech_recognition as sr
 import os
 from termcolor import colored
 
-BOLD = "\033[1m"
-END = "\033[0m"
+BOLD = "\033[1m"   #use to bold the text
+END = "\033[0m"    #use to close the bold text
 
 r = sr.Recognizer()
 with sr.Microphone() as source:
