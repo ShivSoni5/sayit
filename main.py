@@ -24,4 +24,3 @@ while True:
 		sayit = "I could not request results from Google Speech Recognition service; {0}".format(e)
 
 	print colored(BOLD+sayit+END,"green")
-	os.system("espeak -s 120 '"+sayit+"'")
